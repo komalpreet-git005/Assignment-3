@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+  }
+  
+  header {
+    background: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  table, th, td {
+    border: 1px solid #666;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  .gallery img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
